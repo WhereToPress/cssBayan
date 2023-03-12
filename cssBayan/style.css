@@ -49,25 +49,21 @@ html {
     transition: 0.5s all;
     position: relative;
 }
-
 label {
     cursor: pointer;
 }
-.accordion__dropdown__img1 {
-    display: none;
-}
 img {
     width: 100%;
+}
+
+.accordion__dropdown__img1 {
+    display: none;
 }
 .checkbox1 {
     display: none;
 }
 .checkbox1:checked ~ .accordion__dropdown__img1 {
   display: block;
-}
-.checkbox1:checked ~ .accordion__title::after {
-    transform:translateY(-50%) rotate(45deg);
-    color: black;
 }
 
 .accordion__dropdown__img2 {
