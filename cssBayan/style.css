@@ -5,8 +5,11 @@
     letter-spacing: 0.2rem;
     background-color: rgb(240,240,240);
     font-family: arial;
-
 }
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+  }
 .container {
     display: flex;
     flex-direction: column;
